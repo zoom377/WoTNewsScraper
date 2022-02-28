@@ -28,7 +28,7 @@ _NUMBER_OF_PAGES_TO_SCRAPE:int = 1500  # How many pages to scrape before stoppin
 # Set this to the amount of links displayed on the WoT news page. 72 as of 28/2/22
 _EVENTS_PER_NEWS_PAGE:int = 72
 # How many page requests should be sent per second? Recommended: 10
-_REQUEST_SEND_RATE:float = 50
+_REQUEST_SEND_RATE:float = 10
 
 
 def get_wot_event_urls_from_page(page_index):
